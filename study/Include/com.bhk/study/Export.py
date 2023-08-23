@@ -1,3 +1,5 @@
+# 从MongoDB中获取最新的100条数据，保存到TXT文件
+
 import json
 from datetime import date, datetime
 from pymongo import MongoClient

@@ -1,3 +1,4 @@
+# 连接MongoDB数据库插入指定文件中的数据
 import os
 from pymongo import MongoClient
 from datetime import datetime
