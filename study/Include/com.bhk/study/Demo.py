@@ -7,8 +7,10 @@ import random
 """
 money = 10000
 for i in range(1, 21):
+    # 判断薪水是否足够
     if money >= 1000:
         score = random.randint(1, 10)
+        # 判断绩效
         if score > 5:
             money -= 1000
             print(f"向员工{i}发放工资1000元，余额{money}元")
