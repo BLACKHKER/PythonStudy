@@ -11,3 +11,8 @@
 #     if (i == "a"):
 #         num += 1
 # print(f"该字符串中有{num}个a字符")
+
+# 注意：for循环的临时变量是可以被循环体外部访问到的如下代码会打印两遍4
+for i in range(5):
+    print(i)
+print(i)
