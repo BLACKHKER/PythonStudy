@@ -15,6 +15,22 @@
 # print(myList[-1])
 
 '''
+    遍历列表
+'''
+# while
+# index = 0
+# myList = [1, 2, 3, 4, 5]
+# while index < len(myList):
+#     print(myList[index])
+#     index += 1
+
+# for
+# index = 0
+# myList = [1, 2, 3, 4, 5]
+# for i in myList:
+#     print(i)
+
+'''
     遍历矩阵
 '''
 # myList2 = [[1, 2, 3], [4, 5, 6]]
@@ -27,7 +43,7 @@
 '''
     插入元素
 '''
-myList = [1, 2, 3, "3"]
+# myList = [1, 2, 3, "3"]
 # 在列表的末尾新增元素
 # myList.append(1)
 
@@ -36,4 +52,5 @@ myList = [1, 2, 3, "3"]
 '''
 # print(myList.count(3))
 
-print(myList)
+
+# print(myList)
