@@ -24,11 +24,11 @@ import random
     函数Demo，定义函数，接受一个参数体温，在函数内进行体温判断(正常范围：小于37.5度)
     输出以下内容：您的体温是：37.5度，体温正常请进/体温不正常需要隔离！
 """
-def temperature(number):
-    if number <= 37.5 and number >= 36.1:
-        print(f"您的体温是{number}度，体温正常请进")
-    else:
-        print(f"您的体温是{number}，体温不正常，需要隔离！")
-
+# def temperature(number):
+#     if number <= 37.5 and number >= 36.1:
+#         print(f"您的体温是{number}度，体温正常请进")
+#     else:
+#         print(f"您的体温是{number}，体温不正常，需要隔离！")
+#
 # number = input("请输入体温：")
-temperature(int(input("请输入体温：")))
+# temperature(int(input("请输入体温：")))
