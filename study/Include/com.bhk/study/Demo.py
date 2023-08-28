@@ -44,3 +44,20 @@ import random
 #         num = 0
 #         print(line)
 # print(f"sample的出现次数是：{count}次")
+
+'''
+    备份文件
+'''
+# 打开文件(建立连接)
+# file = open("D:/logs/exportData.txt", "r", encoding="UTF-8")
+# for line in file:
+# 新建文件，模式为追加
+# backFile = open("D:/logs/writeData.txt", "a", encoding="UTF-8")
+# 将读取到的内容保存到缓存
+# backFile.write(line)
+# 写入磁盘
+# backFile.flush()
+# 关闭写入流
+# backFile.close()
+# 关闭读取流
+# file.close()

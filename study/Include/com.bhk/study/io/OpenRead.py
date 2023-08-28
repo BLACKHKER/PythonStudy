@@ -2,7 +2,7 @@
 @Author  ：BLACKHKER
 @Date    ：2023/8/25 17:53
 @File    ：Open.py
-@Description: 文件操作(JavaIO流)
+@Description: 读文件操作(JavaIO流)
 @Version 1.0
 '''
 import time
