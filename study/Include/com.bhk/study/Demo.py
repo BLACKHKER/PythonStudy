@@ -36,11 +36,11 @@ import random
 '''
     读取文件统计字符出现次数
 '''
-with open("D:\logs\exportData.txt", "r", encoding="UTF-8") as f:
-    count = 0
-    for line in f:
-        num = line.count("sample")
-        count += num
-        num = 0
-        print(line)
-print(f"sample的出现次数是：{count}次")
+# with open("D:\logs\exportData.txt", "r", encoding="UTF-8") as f:
+#     count = 0
+#     for line in f:
+#         num = line.count("sample")
+#         count += num
+#         num = 0
+#         print(line)
+# print(f"sample的出现次数是：{count}次")
