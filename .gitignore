@@ -1,0 +1,5 @@
+# Python Default
+__pycache__/
+
+# Pycharm
+.idea
